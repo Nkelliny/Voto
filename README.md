@@ -1,7 +1,7 @@
-# Voto
+# data-management-emberjs
 
 This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+A short introduction of this app could easily go here. In order to use this git repository, please use ember cli to install base package then upload files from app directory into your project. This is an alpha project so there may be some build errors, but the data viewer should be in the code.
 
 ## Prerequisites
 
