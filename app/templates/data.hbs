@@ -1,0 +1,19 @@
+<table>
+  <tr>
+    <th>Date</th>
+    <th>Item</th>
+    <th>Item.Sender</th>
+    <th>Item.Recipient</th>
+  </tr>
+
+  {{#each model.items as |item|}}
+    {{#link-to "item" item tagName="tr"}}
+      <td>{{date item.date}}</td>
+      <td>{{item.item}}</td>
+      <td>{{item.sender}}</td>
+      <td>{{item.recipient}}</td>
+    {{/link-to}}
+  {{/each}}
+</table>
+
+{{outlet}}
